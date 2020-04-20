@@ -1,32 +1,41 @@
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- corona_precautions
+- corona_spread
+- corona_recovery_time
+- corona_last_on_surface
+- corona_official_name
+- happen_after_infected
+- corona_symptoms
+- total_patients_in_country
+- goodbye
+- affirm
+- deny
+- bot_challenge
+entities:
+- country
+responses:
+  utter_corona_precautions:
+  - text: "STAY HOME SAVE LIVES\n- STAY home\n- KEEP a safe distance\n- WASH hands\
+      \ often\n- COVER your cough\n- SICK call the helpline\n"
+  utter_corona_spread:
+  - text: "Viruses cannot travel on radio waves/mobile networks.COVID-19 is spreading\
+      \ in many countries that do not have 5G mobile networks.\n COVID-19 is spread\
+      \ through respiratoatry droplets when an infected person coughs, sneezes or\
+      \ speaks. People can also be infected by touching a contaminated surface and\
+      \ then their eyes, mouth or nose."
+  utter_corona_recovery_time:
+  - text: "Using available preliminary data, the median time from onset to clinical\
+      \ recovery for mild cases is approximately 2 weeks and is 3-6 weeks for patients\
+      \ with severe or critical disease. \n- According to WHO"
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+actions:
+- action_greet
+- utter_iamabot
+- utter_corona_precautions
+- utter_corona_recovery_time
+- utter_corona_spread
