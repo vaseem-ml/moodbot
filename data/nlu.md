@@ -2,7 +2,7 @@
 - Hi
 - Hey
 - Hi bot
-- Hey bot 
+- Hey bot
 - Hello
 - Good morning
 - hi again
@@ -28,7 +28,6 @@
 - hey bot!
 - hello friend
 
-
 ## intent:goodbye
 - bye
 - goodbye
@@ -41,7 +40,6 @@
 - uh yes
 - let's do it
 - yeah
-- uh yes
 - um yes
 - yes knocking
 - that's correct
@@ -64,7 +62,6 @@
 - do you have something else
 - no this does not work for me
 
-
 ## intent:corona_precautions
 - what is the precaution of corona
 - what is the precaution of covid-19
@@ -86,7 +83,6 @@
 - what should i do
 - how can i help to slow the spread of the virus
 
-
 ## intent:corona_spread
 - how does the coronavirus disease spread ?
 - how does it spread
@@ -99,13 +95,11 @@
 - how does it grow
 - how this virus is grow
 
-
 ## intent:corona_recovery_time
 - what is the recovery time of corona
 - what is the recovery time of covid-19
 - recovery time
 - what is the recovery time of this virus
-- what is the recovery time of covid-19
 - in how much time corona patient can be cured
 - in how much time covid-19 patent can be cured
 - how much time corona patient take to normal again
@@ -130,7 +124,6 @@
 - what happens when you get coronavirus disease
 - what happens when you get infected with covid-19 disease
 
-
 ## intent:corona_symptoms
 - what is the symptoms of covid-19 virus
 - what is the symptoms of coronavirus disease
@@ -150,17 +143,13 @@
 - total patients of corona in [pakistan](country)
 - total patients of corona in [china](country)
 - total patients of corona in [nepal](country)
-
-
+- corona patients in [india](country)
 
 ## intent:corona_treatment
 - what is the treatment of this virus
 - what is the treatment of coronavirus
 - what is the treatment of corona
 - what is the treatment of covid19
-
-
-
 
 ## intent:bot_challenge
 - are you a bot?
