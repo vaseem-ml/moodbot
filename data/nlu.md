@@ -54,3 +54,6 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:corona_precautions
+- safety precautions
