@@ -2,7 +2,7 @@
 - Hi
 - Hey
 - Hi bot
-- Hey bot
+- Hey bot 
 - Hello
 - Good morning
 - hi again
@@ -36,7 +36,6 @@
 - see you later
 
 ## intent:affirm
-- yeah a cheap restaurant serving international food
 - correct
 - ye
 - uh yes
@@ -152,6 +151,13 @@
 - total patients of corona in [china](country)
 - total patients of corona in [nepal](country)
 
+
+
+## intent:corona_treatment
+- what is the treatment of this virus
+- what is the treatment of coronavirus
+- what is the treatment of corona
+- what is the treatment of covid19
 
 
 
