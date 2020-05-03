@@ -1,4 +1,6 @@
 ## happy path
+* greet
+  - utter_greet
 * corona_precautions
   - utter_corona_precautions
 * corona_spread
@@ -19,6 +21,10 @@
   - corona_status
   - form{"name": "corona_status"}
   - form{"name": null} 
+* what_is_corona
+  - utter_what_is_corona
+* where_did_it_come_from
+  - utter_where_come_from
 * bot_challenge
   - utter_iamabot
 

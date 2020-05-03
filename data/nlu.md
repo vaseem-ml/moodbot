@@ -160,6 +160,23 @@
 - what is the treatment of covid19
 
 
+## intent:what_is_corona
+- what is corona
+- what is coronavirus
+- what is corona decease
+- what is covid-19
+- what is covid - 19
+
+## intent:where_did_it_come_from
+- where did it come from
+- where this virus comes from
+- where corona decease come from
+- where covid-19 come from
+
+
+
+
+
 
 
 ## intent:bot_challenge

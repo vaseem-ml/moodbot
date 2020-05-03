@@ -16,6 +16,8 @@ intents:
 - affirm
 - deny
 - bot_challenge
+- what_is_corona
+- where_did_it_come_from
 entities:
 - country
 slots:
@@ -67,11 +69,18 @@ responses:
       as potential investigational therapies, many of which are now being or will
       soon be studied in clinical trials, including the SOLIDARITY trial co-sponsored
       by WHO and participating countries.
+  utter_greet:
+  - text: Hi there !! How may I help you today ?
+  utter_what_is_corona:
+  - text: Coronaviruses are a family of viruses that range from the common cold to MERS coronavirus, which is Middle East Respiratory Syndrome coronavirus and SARs, Severe acute respiratory syndrom coronavirus
+  utter_where_come_from:
+  - text: At the end of December, public health officials from China informed the World Health Organization that they had a problem an unknown, new virus was causing pneumonia-like illness in the city of Wuhan. They quickly determined that it was a coronavirus and that it was rapidly spreading through and outside of Wuhan.
   utter_iamabot:
   - text: I am Friday. One Touch Technology made me to provide information about corona.
 actions:
 - utter_iamabot
 - utter_default
+- utter_greet
 - utter_corona_precautions
 - utter_corona_recovery_time
 - utter_corona_spread
